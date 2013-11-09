@@ -27,8 +27,8 @@ $config['filepath']		=ROOT_PATH.'/upload';	//文件存储目录,结尾无'/'
 $config['fileprefix']	=$config['urlroot'].'/upload'; //访问文件起始,结尾无'/'
 
 /* 主题选择 */
-$config['theme']		='a';				//主题选择
-$config['template']		='a';				//模板选择
+$config['theme']		='default';				//主题选择
+$config['template']		='default';				//模板选择
 
 /* 显示设置 */
 $config['show']=array(
