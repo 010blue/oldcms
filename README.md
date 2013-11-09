@@ -1,14 +1,5 @@
 <div id="container">
   <h3>OldCMS | 版本 1.0 | 开源、简单、安全的PHP开发框架</h3>
-  <p>
-    <a href="#part1">程序文件组织</a>
-    <a href="#part2">使用流程</a>
-    <a href="#part3">登录与注册</a>
-    <a href="#part4">程序安全</a>
-    <a href="#part5">程序下载</a>
-    <a href="#part6">联系方式</a>
-    <a href="#part7">其它</a>
-  </p>
   <p id="part1">
     1. 程序文件组织
     <pre><code>| install/                    /* 数据库文件、服务器Rewrite规则 */
