@@ -1,22 +1,3 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="utf-8">
-<title>OldCMS | 版本 1.0 | 开源、免费、简单的PHP开发框架</h3></title>
-<style>
-body { margin:0; padding:0; background:#eee; font-size:10pt }
-#container { margin:0 auto; padding:20px; width:610px; background:#fff; box-shadow:0 0 10px 0 #ccc }
-h3 { margin:0; padding:5px 0 20px 0 }
-h4 { margin:0; padding:0; line-height:30px; font-weight:normal }
-p { padding-top:0; margin-top:0; line-height:23px }
-code { display:block; padding:5px; font-size:12px; background:#F8F8F8; color:#333; border:#CCC 1px solid; width:100%-2; min-height:20px; line-height:20px }
-code.nob { border-bottom:none }
-pre { margin:0; padding:0 }
-strong { color: blue; }
-a { color: #428bca; text-decoration: underline; margin-right: 10px; }
-</style>
-</head>
-<body>
 <div id="container">
   <h3>OldCMS | 版本 1.0 | 开源、简单、安全的PHP开发框架</h3>
   <p>
@@ -86,5 +67,3 @@ a { color: #428bca; text-decoration: underline; margin-right: 10px; }
     <a target="_blank" href="http://www.maold.com">猫领地</a> (北京近期领养小猫可联系我～)
   </p>
 </div>
-</body>
-</html>
