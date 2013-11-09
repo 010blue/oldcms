@@ -6,6 +6,12 @@
  */
 if(!defined('IN_OLDCMS')) die('Access Denied');
 
-$smarty=InitSmarty();
-$smarty->display('index.html');
+$act=Val('act','GET');
+
+switch($act){
+	default:
+		$smarty=InitSmarty();
+		$smarty->display('index.html');
+		break;
+}
 ?>
