@@ -22,7 +22,7 @@ function DBConnect($configFile='',$pconnect=false){
 
 /* 获得Smarty对象 */
 function InitSmarty($templatePath=''){
-	global $do,$show,$url;
+	global $do,$act,$show,$url;
 	require_once(ROOT_PATH.'/libs/Smarty.class.php');
 	$smarty=new Smarty;
 	if(empty($templatePath)) $templatePath=TEMPLATE_PATH;
