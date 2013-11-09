@@ -9,7 +9,12 @@ define('ROOT_PATH',dirname(__FILE__));
 
 include(ROOT_PATH.'/config.php');
 //调试模式
-if($config['debug']==false) error_reporting(0);
+if($config['debug']==false){
+	error_reporting(0);
+}else{
+	ini_set('display_errors',1);
+	error_reporting(E_ALL & ~E_NOTICE);
+}
 
 define('URL_ROOT',$config['urlroot']);
 define('URL_REWRITE',$config['urlrewrite']);
