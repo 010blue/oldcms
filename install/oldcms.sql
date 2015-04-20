@@ -28,7 +28,7 @@ create table oc_user
 	hotNum int default 0,		#热度
 	loginTime int default 0,	#最近登录时间
 	addTime int default 0
-) engine=MyISAM charset=utf8;
+) engine=InnoDB charset=utf8;
 insert into oc_user(id,adminLevel,userName,userPwd,email,addTime) values(1,1,'blue','8dc44dc22fdf8df1f5d191dbe13e2a22','010blue@gmail.com',UNIX_TIMESTAMP());	#默认用户：blue,密码：123456
 
 #session 登陆session
@@ -47,7 +47,7 @@ create table oc_session
 	key ocKey(ocKey),
 	key expires(expires),
 	key updateTime(updateTime)
-) engine=MyISAM charset=utf8;
+) engine=InnoDB charset=utf8;
 
 
 #invite_reg 邀请注册
@@ -62,4 +62,4 @@ create table oc_invite_reg
 	regTime int default 0,		#注册时间
 	addTime int default 0,
 	key userId(userId)
-) engine=MyISAM charset=utf8;
+) engine=InnoDB charset=utf8;
